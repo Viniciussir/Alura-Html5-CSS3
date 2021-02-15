@@ -27,7 +27,7 @@ nav li {
 nav a {
     text-transform: uppercase;
     color: black;
-    font-weight: bold;
+    font-weight: bold;  
     font-size: 22px;
     text-decoration: none;
 }
@@ -90,9 +90,10 @@ footer {
     margin:20px 0 0;
 
 }
-
-form {
-    margin: 40px 0;
+.contato{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
 form label, form legend {
@@ -237,27 +238,4 @@ td ,th{
     margin: 2em auto;
 }
 
-@media screen and (max-width: 480px) { 
 
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
-        width: auto;
-    }
-
-    h1{
-        text-align: center;
-    }
-
-    nav{
-        position: static;
-    }
-
-    .lista-beneficios, imagem-beneficios {
-        width: 100%
-    }
-    .produtos{
-        display:grid;
-      
-    }
-   
-    
-}

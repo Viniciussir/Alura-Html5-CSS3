@@ -1,0 +1,36 @@
+@media screen and (max-width: 480px) { 
+
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .lista-beneficios, imagem-beneficios {
+        width: 100%
+    }
+    .produtos{
+        display:grid;
+    }
+
+    .produtos li{
+        width: auto;
+        margin: 0 50px 10px 50px;     
+    }
+    .contato{
+        width: auto;
+        margin: 0 30px;
+    }
+
+    form label {
+        margin-bottom: 2px;
+    }
+   
+    
+}
